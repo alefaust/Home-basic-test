@@ -1,0 +1,34 @@
+.container-color-screen{
+    position: relative;
+    /*background-color: rgb(70,33,173,83%);*/
+    top:0;
+    left:0;
+}
+
+.container-body{
+    display: block;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding:3rem ;  
+}
+
+.container-text {
+    width: 90vw;
+
+}
+
+.container-text p {
+    color: var(--color-title);
+    font: 300 14px Montserrat;
+    padding:3rem;
+}
+
+#page-text-bold {
+    font: 700 40px Montserrat;
+    margin-bottom: 20px;
+    margin-right: 40px;
+
+}

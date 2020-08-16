@@ -1,0 +1,36 @@
+.container-itens{
+    display: block;
+    align-items: center;
+    width: 90vw;
+}
+
+.container-itens-chield{
+    padding: 3.2rem 2rem;
+    display: block;
+    align-items: center;
+    color: var(--color-title);
+}
+
+.container-itens-chield img {
+    width: 72px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.container-itens-chield div{
+    color: var(--color-text-title);
+    text-align: center;
+    padding: 10px;
+}
+
+
+.container-itens-chield div strong{
+    font: 700 15px Montserrat;
+    display: block;
+}
+
+.container-itens-chield div span{
+    font: 400 14px Montserrat;
+    display: block;
+    margin-top: 10px;
+}
