@@ -1,11 +1,11 @@
 .container-itens{
     display: block;
     align-items: center;
-    width: 90vw;
+    width: 100vw;
 }
 
 .container-itens-chield{
-    padding: 3.2rem 2rem;
+    padding: 40px 28px;
     display: block;
     align-items: center;
     color: var(--color-title);
@@ -25,12 +25,23 @@
 
 
 .container-itens-chield div strong{
-    font: 700 15px Montserrat;
+    font: 700 1.1rem Montserrat;
     display: block;
 }
 
 .container-itens-chield div span{
-    font: 400 14px Montserrat;
+    font: 400 1rem Montserrat;
     display: block;
     margin-top: 10px;
+}
+
+@media (min-width: 700px) {
+
+    .container-itens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+
 }

@@ -5,9 +5,10 @@
     align-items: center;
     border-radius: 16px;
     box-shadow: 0 3px 6px rgb(0, 0, 0, 53%);
-    margin-bottom: 60px;
     min-width: 307px;
-    min-height: 572px;
+    width: 80vw;
+    margin:0 auto;
+    margin-bottom: 60px;
 
 }
 
@@ -27,13 +28,13 @@
     background: var(--color-button-dark);
     margin: 30px 0;
     height: 29px;
-    width: 102px;
+    min-width: 102px;
     border: 1px solid var(--color-button-dark);
     border-radius: 20px;
     font: 400 0.9rem Montserrat;
     color:var(--color-button-light);
     box-shadow: 0 6px 12px rgb(0, 0, 0, 5%);
-    
+    width: 30vw;
 }
 
 .container-btlog button:first-child{
@@ -47,8 +48,10 @@
     margin: 20px 0px 60px 0px;
     border: 0;
     box-shadow: 0 6px 12px rgb(0, 0, 0, 5%);
-    width: 104px;
-    height: 116px;
+    min-width: 104px;
+    min-height: 116px;
+    width: 30vw;
+    height: 15vh;
     border-radius: 10px;
 }
 
@@ -58,61 +61,54 @@
 }
 
 .container-btsex button img{
-    width: 30px;
+    width: 40px;
 }
 
-.container-field {
-    text-align: center;
-}
+@media (min-width:700px){
+    
+    .container-contact{
+        background-color:transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: none;
+        box-shadow:inherit;
+        min-height: 0;
+        margin:0 auto;
+        min-width: 0;
+        min-height:0;
+        width: 1000px;
+    
+    }
+    
+    .container-btlog {
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
+    .container-btlog button {
+        background: var(--color-button-light);
+        margin: 30px 25px 0 25px;
+        height: 35px;
+        width: 200px;
+        border: 1px solid var(--color-button-dark);
+        border-radius: 20px;
+        font: 400 1.2rem Montserrat;
+        color:var(--color-button-dark);
+        cursor: pointer;
+        
+    }
 
-.container-field input {
-    clear: both;
-    display: block;
-    width: 70vw;
-    min-width: 257px;
-    margin-bottom:20px;
-    border: 1px solid var(--color-background);
-    border-radius: 23px;
-    padding: 0 15px;
-    height: 45px;
-    margin: 0 0 10px;
-}
+    .container-btlog button:first-child{
+        background:transparent;
+        color:var(--color-button-light);
+        border: 1px solid var(--color-button-light);
+    }
 
-.container-field input::selection{
-    border:0;
-}
-
-.container-field input::placeholder{
-    color:var(--color-place-input);
-    font: 500 0.9rem Montserrat;
-}
-
-.container-field button {
-    background-color: var(--color-button-dark);
-    margin: 30px 0;
-    height: 50px;
-    border: 0;
-    width:50px;
-    border-radius: 50px;
-    font: 500 2.8rem Montserrat;
-    color:var(--color-text-complement);
-    transition: background 0.5s;
-}
-
-.container-field button:hover{
-    background-color: var(--color-buttonhover);
-}
-
-.input-inside-contact div{
-    position: relative;
-    width: 100vw;
-}
-
-.input-inside-contact{
-    position: absolute;
-    margin-top: 1rem;
-    color: var(--color-secundary);
-    font-size: 1.4rem;
-    width: calc(70vw - 3rem);
+    .container-btsex{
+        display: none;
+    }
 }

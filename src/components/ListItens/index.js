@@ -17,7 +17,7 @@ function ListItens() {
                 />
                 <div>
                     <strong>Spend time smart</strong>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </span>
+                    <span>Lorem ipsum dolor sit amet.</span>
                 </div>
             </div>
             <div className="container-itens-chield">
@@ -27,7 +27,7 @@ function ListItens() {
                 />
                 <div>
                     <strong>Audio podcast</strong>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </span>
+                    <span>Lorem ipsum dolor sit amet.</span>
                 </div>
             </div>
             <div className="container-itens-chield">    
@@ -37,7 +37,7 @@ function ListItens() {
                 />
                 <div>
                     <strong>Line-chart</strong>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </span>
+                    <span>Lorem ipsum dolor sit amet.</span>
                 </div>
             </div>
             <div className="container-itens-chield">    
@@ -47,7 +47,7 @@ function ListItens() {
                 />
                 <div>
                     <strong>Quality</strong>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </span>
+                    <span>Lorem ipsum dolor sit amet.</span>
                 </div>
             </div>
 

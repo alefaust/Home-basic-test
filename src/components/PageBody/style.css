@@ -1,0 +1,83 @@
+
+  .container-background {
+    position: relative;
+    background-image: url("../../assets/images/zachary-nelson-1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+  }
+
+.container-color-screen{
+    background-color: rgb(70,33,173,83%);
+}
+
+.container-body{
+    display: block;
+    align-content: center;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    /*padding:3rem ;  */
+}
+
+.container-text {
+    width: 90vw;
+    display: block;
+    justify-content: left;
+    padding: 40px
+
+}
+
+.container-text p {
+    color: var(--color-title);
+    font: 300 1rem Montserrat;
+}
+
+#page-text-bold {
+    font: 700 3.5rem Montserrat;
+    margin-bottom: 40px;
+}
+
+footer {
+    position:relative;
+    bottom:0 ;
+    left: 0 ;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--color-box-base);
+    background:var(--color-background);
+    font: 300 0.9rem Montserrat;
+    height: 30px;
+  }
+
+@media (min-width: 700px) {
+    .container-body{
+        margin: 0 auto;
+        height: 100vh;
+        width: 1000px;
+        background:url("../../assets/images/fundo-full.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .container-text {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 50vw;
+        margin:0 auto;
+
+    }
+    
+ 
+    #page-text-bold {
+        margin-bottom: 10px;
+    }
+    
+    footer{
+        display:none;
+    }
+}

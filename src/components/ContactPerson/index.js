@@ -1,12 +1,9 @@
 import React from 'react';
 
+import InputsContact from '../InputsContact';
+
 import ImgMan from '../../assets/images/man.svg';
 import ImgWom from '../../assets/images/woman.svg';
-
-
-import { MdPersonOutline, MdKeyboardArrowDown, MdMailOutline } from 'react-icons/md';
-import { IoIosArrowDown } from 'react-icons/io'
-import {IconContext} from 'react-icons';
 
 import './style.css';
 
@@ -22,24 +19,7 @@ function ContactPerson() {
                     <button type="button"><img src={ImgMan} alt="Man" /></button>
                     <button type="button"><img src={ImgWom} alt="Woman" /></button>
                 </div>
-                <div className="container-field">
-                    <IconContext.Provider value={{ className: "input-inside-contact" }}>
-                        <div >
-                            <MdPersonOutline />
-                            <input type="text" placeholder="Username" />
-                        </div>
-                        <div>
-                            <MdMailOutline />
-                            <input type="text" placeholder="Mail" />
-                        </div>
-                        <div>
-                            <IoIosArrowDown />
-                            <input type="text" placeholder="Whats Are Your Interests?" />
-                        </div>
-                    </IconContext.Provider>
-
-                    <button type="button">+</button>
-                </div>
+                <InputsContact/>
             </form>
         </div>
     );

@@ -3,7 +3,7 @@
     --color-buttonhover: #21104e;
     --color-secundary: #C6C6D0;
     --color-title: #ffffff;
-    --color-text-title: #ffffff;
+    --color-text-logo: #4621AD;
     --color-text-complement: #FFEE00;
     --color-icon: #6a6180;
     --color-place-input:#CDD0D9;
@@ -13,7 +13,7 @@
     --color-notification:#F28CAF;
  
   
-    font-size: 14px;
+    font-size: 16px;
   }
   
   * {
@@ -39,12 +39,18 @@
   .container {
     width: 100vw;
     max-width: 700px;
-    display: block;
+    
   }
   
 
   @media (min-width: 700px) {
     :root {
-      font-size: 16px;
+      font-size: 14px;
     }
+
+    .container{
+      position: relative;
+      width: 100vw;
+    }
+
   }
