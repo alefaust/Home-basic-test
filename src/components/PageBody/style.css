@@ -22,16 +22,16 @@
 }
 
 .container-text {
-    width: 90vw;
+    width:60vw;
     display: block;
     justify-content: left;
-    padding: 40px
-
-}
+    margin: 50px auto;
+    }
 
 .container-text p {
     color: var(--color-title);
     font: 300 1rem Montserrat;
+    
 }
 
 #page-text-bold {
@@ -68,7 +68,7 @@ footer {
         text-align: center;
         align-items: center;
         width: 50vw;
-        margin:0 auto;
+        margin:100px auto;
 
     }
     

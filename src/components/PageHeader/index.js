@@ -65,7 +65,7 @@ class PageHeader extends React.Component {
                         <img src={ImgLogo} alt="Logo" id="page-logo" />
                         <aside>
 
-                            <MdNotifications color="#C6C6D0" size={20} />
+                            <MdNotifications color="#C6C6D0" size={30} />
                             <span className="notification"></span>
 
                         </aside>

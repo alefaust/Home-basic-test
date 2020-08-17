@@ -24,8 +24,8 @@
     position: absolute;
     right:0;
     top:0;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background:var(--color-notification);
     border-radius: 50%;
     border: 1px solid var( --color-title);
@@ -67,7 +67,7 @@
 }
 
 #page-logo{
-    width: 35px;
+    width: 45px;
 }
 
 .nav-container input{
