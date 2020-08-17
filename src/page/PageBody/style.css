@@ -1,15 +1,20 @@
-.container-color-screen{
+
+  .container-background {
     position: relative;
-    /*background-color: rgb(70,33,173,83%);*/
-    top:0;
-    left:0;
+    background-image: url("../../assets/images/zachary-nelson-1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.container-color-screen{
+    background-color: rgb(70,33,173,83%);
 }
 
 .container-body{
     display: block;
     align-content: center;
     width: 100vw;
-    height: 100vh;
     justify-content: center;
     align-items: center;
     padding:3rem ;  
@@ -32,3 +37,15 @@
     margin-right: 40px;
 
 }
+
+footer {
+    position:relative;
+    bottom:0 ;
+    left: 0 ;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    color:var(--color-box-base);
+    background:var(--color-background);
+    font: 300 1.3rem Montserrat;
+  }

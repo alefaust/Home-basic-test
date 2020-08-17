@@ -10,7 +10,6 @@ function App() {
      <div className="container">
        <PageHeader/>
        <PageBody/>
-       <footer>Copyright 2019 All Rights Reserved</footer>
    </div>
   );
 }

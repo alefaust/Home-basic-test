@@ -5,6 +5,7 @@ import ImgWom from '../../assets/images/woman.svg';
 
 
 import { MdPersonOutline, MdKeyboardArrowDown, MdMailOutline } from 'react-icons/md';
+import { IoIosArrowDown } from 'react-icons/io'
 import {IconContext} from 'react-icons';
 
 import './style.css';
@@ -23,7 +24,7 @@ function ContactPerson() {
                 </div>
                 <div className="container-field">
                     <IconContext.Provider value={{ className: "input-inside-contact" }}>
-                        <div>
+                        <div >
                             <MdPersonOutline />
                             <input type="text" placeholder="Username" />
                         </div>
@@ -32,7 +33,7 @@ function ContactPerson() {
                             <input type="text" placeholder="Mail" />
                         </div>
                         <div>
-                            <MdKeyboardArrowDown />
+                            <IoIosArrowDown />
                             <input type="text" placeholder="Whats Are Your Interests?" />
                         </div>
                     </IconContext.Provider>

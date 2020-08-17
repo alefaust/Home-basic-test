@@ -8,14 +8,18 @@ import './style.css';
 
 function PageBody() {
   return (
-    <div className="container-color-screen">
-      <div className="container-body">
-        <div className="container-text">
-          <p id="page-text-bold">Join us today</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    <div className="container-background">
+      <div className="container-color-screen">
+        <div className="container-body">
+          <div className="container-text">
+            <p id="page-text-bold">Join us today</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          </div>
+          <ListItens />
+          <ContactPerson />
+
         </div>
-        <ListItens/>
-        <ContactPerson/>
+        <footer>Copyright 2019 All Rights Reserved</footer>
       </div>
     </div>
   );

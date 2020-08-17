@@ -18,13 +18,13 @@ class PageHeader extends React.Component {
     }
 
     ExpanMenu = () => {
-        
+
         const { satusNav } = this.state;
 
-       
+
         this.setState({
-            styleOpen: satusNav===true ?  'nav-list-close':'nav-container',
-            satusNav:  satusNav===true ? false : true,
+            styleOpen: satusNav === true ? 'nav-list-close' : 'nav-container',
+            satusNav: satusNav === true ? false : true,
         });
 
         console.log(this.state);
@@ -34,7 +34,7 @@ class PageHeader extends React.Component {
     render() {
 
 
-        const { styleOpen,satusNav } = this.state;
+        const { styleOpen, satusNav } = this.state;
 
         return (
 
@@ -42,13 +42,13 @@ class PageHeader extends React.Component {
                 <div className="page-header">
                     <div className="container-header">
                         <a className="nav-menu" onClick={this.ExpanMenu} id="diveffect">
-                            {satusNav===true ? <MdKeyboardArrowUp color="#C6C6D0" size={30} />:<MdDehaze color="#C6C6D0" size={30} />}
+                            {satusNav === true ? <MdKeyboardArrowUp color="#C6C6D0" size={30} /> : <MdDehaze color="#C6C6D0" size={30} />}
                         </a>
                         <img src={ImgLogo} alt="Logo" id="page-logo" />
                         <aside>
-                            <div className="notification">
-                                <MdNotifications color="#C6C6D0" size={20} />
-                            </div>
+
+                            <MdNotifications color="#C6C6D0" size={20} />
+                            <span className="notification"></span>
 
                         </aside>
                     </div>
