@@ -35,7 +35,7 @@
     margin-top: 10px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
 
     .container-itens{
         display: flex;

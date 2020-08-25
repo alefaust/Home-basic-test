@@ -1,15 +1,19 @@
 
   .container-background {
     position: relative;
+    display: table;
     background-image: url("../../assets/images/zachary-nelson-1.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
+    height: 100vh;
   }
 
 .container-color-screen{
     background-color: rgb(70,33,173,83%);
+    display: table;
+    height: 100vh;
 }
 
 .container-body{
@@ -53,10 +57,9 @@ footer {
     height: 30px;
   }
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
     .container-body{
         margin: 0 auto;
-        height: 100vh;
         width: 1000px;
         background:url("../../assets/images/fundo-full.png");
         background-position: center center;
