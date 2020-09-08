@@ -14,7 +14,6 @@
 [![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/alexandrefaust/]
 
 
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -25,16 +24,16 @@
   <h3 align="center">Home page basic (Teste de Front-end)</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    Projeto de teste para o front-end
     <br />
-    <a href="https://github.com/deadfirer/Home-basic-test"><strong>Explore the docs »</strong></a>
+    <!--a href="https://github.com/deadfirer/Home-basic-test"><strong>Explore the docs »</strong></a-->
     <br />
     <br />
-    <a href="https://github.com/deadfirer/Home-basic-test">View Demo</a>
+    <!--a href="https://github.com/deadfirer/Home-basic-test">View Demo</a>
     ·
     <a href="https://github.com/deadfirer/Home-basic-test/issues">Report Bug</a>
     ·
-    <a href="https://github.com/deadfirer/Home-basic-test/issues">Request Feature</a>
+    <a href="https://github.com/deadfirer/Home-basic-test/issues">Request Feature</a-->
   </p>
 </p>
 
