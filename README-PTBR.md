@@ -55,7 +55,8 @@
   <img width="1050" height="750" src="https://drive.google.com/uc?export=view&id=13hSKk9Dcz2zPMqxDkEEj4UZfLGTQvlPO">
 </p>
 
-Projeto de desenvolvimento de uma home page básica, desenvolvido em mobile-first e responsivel.
+Esse projeto foi desenvolvido para testar uma home page de uma empresa ficticia para verificar o seu comportamento no navegador.
+Projeto contruido em mobile first de forma responsiva.
 
 ### Desenvolvido com
 
