@@ -41,7 +41,7 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [About the Project](#Sobre o Projeto)
+* [Sobre o Projeto](#Sobre o Projeto)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
@@ -58,7 +58,7 @@
 ## Sobre o Projeto
 
 <p align="center">
-  <img width="1100" height="500" src="https://drive.google.com/uc?export=view&id=13hSKk9Dcz2zPMqxDkEEj4UZfLGTQvlPO">
+  <img width="700" height="500" src="https://drive.google.com/uc?export=view&id=13hSKk9Dcz2zPMqxDkEEj4UZfLGTQvlPO">
 </p>
 
 Projeto de desenvolvimento de uma home page básica, criado em mobile-first e responsivel.
