@@ -42,7 +42,7 @@
 
 * [Sobre o Projeto](#sobre-o-projeto)
   * [Desenvolvido com](#desenvolvido-com)
-* [Começando](#começando)
+* [Começando](#começando-🚀)
   * [Pré-requisitos](#pre-requisitos)
   * [Instalação](#instalação)
 <!--* [Usage](#usage)
