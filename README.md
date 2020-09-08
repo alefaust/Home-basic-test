@@ -93,5 +93,4 @@ yarn start
 ```
 
 ## Licença 
-
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+This project is under license (your license) - see the [LICENSE.md] file (https://github.com/deadfire/Home-basic-test/licenca) for details.
