@@ -38,7 +38,7 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
-## Table of Contents
+## Tabela de Conteudo
 
 * [Sobre o Projeto](#sobre-o-projeto)
   * [Desenvolvido com](#desenvolvido-com)
@@ -69,7 +69,7 @@ Projeto de desenvolvimento de uma home page básica, desenvolvido em mobile-firs
 * [CSS]()
 
 <!-- GETTING STARTED -->
-## 🚀 Começando 
+## Começando 🚀 
 
 baixe a pasta do projeto em sua máquina.
 
@@ -81,7 +81,7 @@ link para download https://nodejs.org/en/
 * Yarn
 link para download https://classic.yarnpkg.com/
 
-### ⚙ Instalação 
+### Instalação ⚙ 
 
 1. Clone o repo
 ```sh
@@ -96,6 +96,6 @@ yarn
 yarn start
 ```
 
-## 📄 Licença
+## Licença 📄 
 
 Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
