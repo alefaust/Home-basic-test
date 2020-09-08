@@ -52,7 +52,7 @@
 ## About the Project
 
 <p align="center">
-  <img width="1050" height="750" src="https://drive.google.com/uc?export=view&id=13hSKk9Dcz2zPMqxDkEEj4UZfLGTQvlPO">
+  <img width="80%" src="https://drive.google.com/uc?export=view&id=13hSKk9Dcz2zPMqxDkEEj4UZfLGTQvlPO">
 </p>
 
 This project was developed to test a home page of a fictitious company to verify its behavior in the browser.
