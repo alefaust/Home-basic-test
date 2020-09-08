@@ -41,18 +41,18 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [Sobre o Projeto](#Sobre o Projeto)
+* [Sobre o Projeto](#sobre-o-projeto)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-<!-- * [Roadmap](#roadmap)
+* [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
--->
+
 
 
 ## Sobre o Projeto
