@@ -11,7 +11,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/alexandrefaust/]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 <!-- PROJECT LOGO -->
@@ -41,16 +41,16 @@
 ## Table of Contents
 
 * [Sobre o Projeto](#sobre-o-projeto)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
+  * [Desenvolvido com](#desenvolvido-com)
+* [Começando](#começando)
+  * [Pré-requisitos](#pre-requisitos)
+  * [Instalação](#instalação)
+<!--* [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+* [Acknowledgements](#acknowledgements)-->
 
 
 
@@ -60,4 +60,39 @@
   <img width="1050" height="750" src="https://drive.google.com/uc?export=view&id=13hSKk9Dcz2zPMqxDkEEj4UZfLGTQvlPO">
 </p>
 
-Projeto de desenvolvimento de uma home page básica, criado em mobile-first e responsivel.
+Projeto de desenvolvimento de uma home page básica, desenvolvido em mobile-first e responsivel.
+
+### Desenvolvido com
+
+* [ReactJS]()
+* [EC6]()
+* [CSS]()
+
+<!-- GETTING STARTED -->
+## Começando
+
+baixe a pasta do projeto em sua máquina.
+
+### Pré-requisitos
+
+É necessário ter o node instalado e recomendo o yarn para rodar os comandos.
+* node.js
+link para download https://nodejs.org/en/
+* Yarn
+link para download https://classic.yarnpkg.com/
+
+### Instalação
+
+1. Clone o repo
+```sh
+git clone https://github.com/deadfirer/Home-basic-test.git
+```
+2. Instalar as configurações, rode o comando
+```sh
+yarn
+```
+3. Execultar o projeto
+```sh
+yarn start
+```
+
