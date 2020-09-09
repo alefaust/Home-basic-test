@@ -42,9 +42,9 @@
   * [Installation](#installation)
 <!--* [Usage](#usage)
 * [Roadmap](#roadmap)
-* [Contributing](#contributing)-->
+* [Contributing](#contributing)
 * [License](#license)
-<!--* [Contact](#contact)
+* [Contact](#contact)
 * [Acknowledgements](#acknowledgements)-->
 
 
@@ -91,6 +91,3 @@ yarn
 ```sh
 yarn start
 ```
-
-## Licença 
-This project is under license (your license) - see the [LICENSE.md] file (https://github.com/deadfire/Home-basic-test/licenca) for details.
